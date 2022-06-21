@@ -43,7 +43,7 @@ line-height: 35px;
 }
 .section1{
     background: linear-gradient(265.05deg, #E73635 4%, #6AD5FF 87.25%);
-    height: 480px;
+    height: 520px;
 }
 .newsletter{
     display: flex;
@@ -380,6 +380,7 @@ color: #1F1F26;
 .features-body{
     display: flex;
     align-items: center;
+    text-align: center;
     flex-direction: column;
 }
 .testimonials .card{
@@ -431,7 +432,6 @@ color: #959595;
 }
 
 @media screen and (max-width: 900px) {
-    
     .container{
         padding: 25px 50px;
     }
@@ -439,14 +439,18 @@ color: #959595;
         display: none;
     }
     .hero-body .content .details {
-        /* position:relative; */
         top: -350px;
+        text-align: center;
+        left: 20%;
     }
-    .hero{
-        height: auto;
+
+    .section1 .container, .navbar{
+        background: #111439;
     }
-    .navbar{
+    .navbar,.bottomnav{
         flex-direction: column;
+        justify-content: center;
+        
     }
     .navbar ul li{
         display: block;
@@ -459,7 +463,8 @@ color: #959595;
     }
     .products .content{
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
+        row-gap: 30px;
         align-items: center;
     }
     .testimonials img{
@@ -468,6 +473,8 @@ color: #959595;
     .testimonials .card{
         display: flex;
         justify-content: center;
+        margin: 50px 0;
+        text-align: center;
         align-items: center;
         
     }
@@ -503,11 +510,20 @@ color: #959595;
         width: 300px;
     }
     .bottomnav{
-        flex-direction: column;
         border: none;
     }
     .bottomnav ul li{
         display: block;
     }
+   
+    .hero-body h1{
+        font-size: 64px;
+    }
+    .statistics-title{
+        font-size: 30px;
 
+    }
+    .numerics .amount{
+        font-size: 30px;
+    }
 }
