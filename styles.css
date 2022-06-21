@@ -32,12 +32,14 @@ line-height: 35px;
     padding: 10px 20px;
     border-radius: 21px;
 }
-
+.btnsubscribe img, .btnrequestdemo2 img {
+    margin: 0 5px;
+}
 .btnrequestdemo2 , .btnsubscribe{
     color: #E3E3EA;
     background: #231A36;
     border-radius: 26px;
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 .section1{
     background: linear-gradient(265.05deg, #E73635 4%, #6AD5FF 87.25%);
@@ -58,18 +60,16 @@ text-align: center;
 .newsletter-content p{
     margin: 20px 0;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-/* or 175% */
-
-text-align: center;
-letter-spacing: 0.01em;
-
-color: rgba(255, 255, 255, 0.83);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.83);
 }
 .features-title, .testimonials-title, .products-title{
+   
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -78,6 +78,14 @@ color: rgba(255, 255, 255, 0.83);
     text-align: center;
     color: #1F1F26;
 
+}
+.testimonials-title
+{
+    margin: 15px 0;
+}
+.testimonials .content img{
+    position: relative;
+    left:-30px;
 }
 .newsletter-title{
     font-family: 'Poppins';
@@ -89,6 +97,7 @@ color: rgba(255, 255, 255, 0.83);
     color: #FFFFFF;    
 }
 .statistics-title{
+    margin: 50px 0;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -134,10 +143,23 @@ color: rgba(255, 255, 255, 0.83);
     right:0;
     top: -260px;
 }
+.hero-footer span{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #B2B7BE;
+}
 .hero-footer{
     margin-top: 370px;
+    text-align: center;
+}
+.hero-footer div{
+    margin: 70px 0;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 .hero-footer div{
@@ -159,6 +181,32 @@ color: rgba(255, 255, 255, 0.83);
     font-size: 16px;
     line-height: 30px;
     color: #425466;
+}
+.features-title{
+    margin: 20px 0;
+}
+.features-body .content{
+    margin: 10px 0;
+}
+.features-body p{
+    margin: 10px 0;
+}
+.features-body .btnlearnmore{
+color: #42424A;
+}
+.btnlearnmore{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+}
+.products .btnlearnmore{
+color: #B33CDB;
+}
+.btnlearnmore img{
+    margin: 0 5px;
 }
 footer div p{
     text-align: center;
@@ -214,6 +262,55 @@ color: #7B9292;
     flex-direction: column;
     row-gap: 10px;
 }
+.products .card{
+    display: flex;
+    column-gap: 70px;
+}
+.products .card div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: flex-start;
+    margin: 15px 0;
+}
+.products .caption h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3B3B43;
+    margin: 10px 0;
+}
+.products .content-wrapper{
+    position: relative;
+}
+.products .caption{
+    padding: 30px;
+    position:absolute;
+    top: 250px;
+background: #FFFFFF;
+box-shadow: 0px 40px 100px -30px rgba(0, 0, 0, 0.04);
+border-radius: 0px 0px 2px 2px;
+}
+.products .card .specification{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 10px;
+
+color: #ADADBA; 
+}
+.products .card .amount{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1F1F26;
+}
+
 .products {
     margin: 60px 0;
 }
@@ -223,7 +320,8 @@ color: #7B9292;
 .products .content{
     margin: 90px 0;
     display: flex;
-    justify-content: space-between;
+    column-gap: 50px;
+    justify-content: center;
     align-items: center;
 }
 .products .title{
@@ -237,6 +335,38 @@ color: #7B9292;
     display: flex;
     align-items: center;
     column-gap: 50px;
+}
+.influencer .header span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    
+    color: #B33CDB;
+}
+.community .header span{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #FBBA33;
+}
+.services .header span{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+color: #DE2879;
 }
 .influencer-title,.community-title,.services-title{
     font-family: 'Poppins';
@@ -259,7 +389,7 @@ color: #1F1F26;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     justify-items: center;
-    align-content: center;
+    
 }
 .testimonials-header{
     text-align: center;
@@ -273,17 +403,17 @@ color: #1F1F26;
     color: #6D6D6D;
 }
 .testimonials .content .name{
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-family: 'Lato';
 font-style: normal;
 font-weight: 700;
 font-size: 25px;
 line-height: 30px;
-/* identical to box height */
-
-
 color: #1C1C1D;
 }
 .testimonials .content .position{
+    
     font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
