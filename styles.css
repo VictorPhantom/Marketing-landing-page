@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lekton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 50px 100px;
+}
+.brand-name{
+    font-family: 'Lekton';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 35px;
+}
+.footer .brand-name{
+    color: #1A1A1A;
+
+}
+.btnrequest{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(70px);
+    padding: 10px 20px;
+    border-radius: 21px;
+}
+
+.btnrequestdemo2{
+    color: #E3E3EA;
+    background: #231A36;
+    border-radius: 26px;
+    padding: 10px 20px;
+}
+.section1{
+    background: linear-gradient(265.05deg, #E73635 4%, #6AD5FF 87.25%);
+    height: 480px;
+}
+.newsletter{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.newsletter-content{
+    background: linear-gradient(265.05deg, #E73635 4%, #6AD5FF 87.25%);
+border-radius: 20px;
+padding:50px 0;
+width: 700px;
+text-align: center;
+}
+.newsletter-content p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: rgba(255, 255, 255, 0.83);
+}
+.features-title, .testimonials-title, .products-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #1F1F26;
+
+}
+.newsletter-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+.statistics-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.statistics{
+    background: #231A36;
+    color: #E3E3EA;
+    text-align: center;
+}
+
+.navbar ul li ,.bottomnav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 10px;
+}
+.navbar ul li a, .navbar .brand-name, .navbar div a{
+    color: white;
+}
+.bottomnav ul li a, .bottomnav .brand-name, .bottomnav div a{
+    color: #1A1A1A;
+}
+.bottomnav{
+    border-bottom: 1px solid #E3E3EA;
+}
+.hero-body{
+    position: relative;
+}
+.hero-body .content .details {
+    position:absolute;
+    top: -80px;
+}
+.hero-body .content .details p{
+    margin: 40px 0;
+}
+.groupimg{
+    position:absolute;
+    right:0;
+    top: -260px;
+}
+.hero-footer{
+    margin-top: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-footer div{
+    display: flex;
+    column-gap: 30px;
+}
+.hero-body h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 78px;
+    color: #111439;
+}
+.hero-body p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #425466;
+}
+footer div p{
+    text-align: center;
+}
+.navbar,.bottomnav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .icons img{
+    padding: 0 10px;
+}
+.statistics .content{
+    margin: 30px 0;
+}
+.statistics .content p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.01em;
+color: #7B9292;
+
+}
+.numerics{
+    margin: 70px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    align-items: center;
+    
+}
+.numerics .amount{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px; 
+    color: #FFFFFF;
+}
+.numerics .value{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #7B9292;
+}
+.numerics div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.products {
+    margin: 60px 0;
+}
+.products .title p{
+    margin: 15px 0;
+}
+.products .content{
+    margin: 90px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.products .title{
+    text-align: center;
+}
+.hero-body .content{
+    display: flex;
+    
+}
+.influencer, .community, .services{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+.influencer-title,.community-title,.services-title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+color: #1F1F26;
+}
+.features-header{
+    text-align: center;
+}
+.features-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonials .card{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-content: center;
+}
+.testimonials-header{
+    text-align: center;
+}
+.testimonials .content p{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    color: #6D6D6D;
+}
+.testimonials .content .name{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #1C1C1D;
+}
+.testimonials .content .position{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #9C988F;
+}
