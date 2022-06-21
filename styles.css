@@ -157,15 +157,14 @@ text-align: center;
     text-align: center;
 }
 .hero-footer div{
+    display: flex;
+    column-gap: 30px;
     margin: 70px 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.hero-footer div{
-    display: flex;
-    column-gap: 30px;
-}
+
 .hero-body h1{
     font-family: 'Poppins';
     font-style: normal;
@@ -334,7 +333,6 @@ color: #ADADBA;
 .influencer, .community, .services{
     display: flex;
     align-items: center;
-    column-gap: 50px;
 }
 .influencer .header span{
     font-family: 'Inter';
@@ -430,4 +428,86 @@ font-size: 11px;
 line-height: 13px;
 
 color: #959595;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .container{
+        padding: 25px 50px;
+    }
+    .groupimg{
+        display: none;
+    }
+    .hero-body .content .details {
+        /* position:relative; */
+        top: -350px;
+    }
+    .hero{
+        height: auto;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar ul li{
+        display: block;
+    }
+    .btnrequest{
+        display: none;
+    }
+    .products{
+        height: auto;
+    }
+    .products .content{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .testimonials img{
+        display: none;
+    }
+    .testimonials .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .products .caption{
+        position: static;
+    }
+
+    .features-body img{
+        display: none;
+    }
+    .influencer, .community, .services{
+        margin: 20px 0;
+    }
+    .numerics{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        
+    }
+    .hero-footer{
+        margin-top: 0px;
+    }
+    .hero-footer div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .newsletter-content{
+        padding:50px 0;
+        width: 300px;
+    }
+    .bottomnav{
+        flex-direction: column;
+        border: none;
+    }
+    .bottomnav ul li{
+        display: block;
+    }
+
 }
