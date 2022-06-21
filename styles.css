@@ -33,7 +33,7 @@ line-height: 35px;
     border-radius: 21px;
 }
 
-.btnrequestdemo2{
+.btnrequestdemo2 , .btnsubscribe{
     color: #E3E3EA;
     background: #231A36;
     border-radius: 26px;
@@ -56,6 +56,7 @@ width: 700px;
 text-align: center;
 }
 .newsletter-content p{
+    margin: 20px 0;
     font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -115,6 +116,8 @@ color: rgba(255, 255, 255, 0.83);
 }
 .bottomnav{
     border-bottom: 1px solid #E3E3EA;
+    padding: 40px 0;
+    margin: 20px 0;
 }
 .hero-body{
     position: relative;
@@ -288,4 +291,13 @@ font-size: 16px;
 line-height: 19px;
 
 color: #9C988F;
+}
+.copyright-info p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+
+color: #959595;
 }
