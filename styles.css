@@ -128,20 +128,23 @@ text-align: center;
     padding: 40px 0;
     margin: 20px 0;
 }
-.hero-body{
-    position: relative;
-}
-.hero-body .content .details {
-    position:absolute;
-    top: -80px;
-}
+.hero-body .content {
+    position:relative;
+    top: -150px;
+} 
 .hero-body .content .details p{
     margin: 40px 0;
+} 
+.hero-body .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:200px;
 }
 .groupimg{
-    position:absolute;
+    position:relative;
     right:0;
-    top: -260px;
+    top: -150px;
 }
 .hero-footer span{
     font-family: 'Lato';
@@ -160,7 +163,6 @@ text-align: center;
     display: flex;
     column-gap: 30px;
     margin: 70px 0;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -213,6 +215,7 @@ footer div p{
 .navbar,.bottomnav{
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 footer .icons img{
@@ -235,6 +238,7 @@ color: #7B9292;
 .numerics{
     margin: 70px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     column-gap: 50px;
     align-items: center;
@@ -258,11 +262,13 @@ color: #7B9292;
 }
 .numerics div{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     row-gap: 10px;
 }
 .products .card{
     display: flex;
+    flex-wrap: wrap;
     column-gap: 70px;
 }
 .products .card div{
@@ -319,17 +325,15 @@ color: #ADADBA;
 .products .content{
     margin: 90px 0;
     display: flex;
-    column-gap: 50px;
+    flex-wrap: wrap;
+    gap:200px;
     justify-content: center;
     align-items: center;
 }
 .products .title{
     text-align: center;
 }
-.hero-body .content{
-    display: flex;
-    
-}
+
 .influencer, .community, .services{
     display: flex;
     align-items: center;
@@ -443,18 +447,15 @@ color: #959595;
         text-align: center;
         left: 20%;
     }
+    .hero-body .content{
+        align-items: center;
+        justify-content: center;
+    }
 
     .section1 .container, .navbar{
         background: #111439;
     }
-    .navbar,.bottomnav{
-        flex-direction: column;
-        justify-content: center;
-        
-    }
-    .navbar ul li{
-        display: block;
-    }
+    
     .btnrequest{
         display: none;
     }
@@ -516,9 +517,7 @@ color: #959595;
         display: block;
     }
    
-    .hero-body h1{
-        font-size: 64px;
-    }
+
     .statistics-title{
         font-size: 30px;
 
